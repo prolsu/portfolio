@@ -1,0 +1,23 @@
+body {
+    background-color: whitesmoke;
+    display: block;
+   
+}
+
+.jumbotron {
+    margin: 8px;
+    color: whitesmoke;
+    background-image: url("https://miro.medium.com/max/3840/1*ee9Ji2ToUxeYfj3YUQ1xsA.jpeg") ;
+    max-width: auto;
+    max-height: 100%;
+}
+
+h1 .pedro {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.5rem;
+    color: #f8f8;
+    box-sizing: border-box;
+    font-weight: 300;
+    line-height: 1.2;
+    
+}
