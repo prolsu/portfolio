@@ -1,17 +1,11 @@
-body {
+body,
+html {
     background-color: whitesmoke;
     display: block;
     font-family: 'DM Serif Display', serif;
-   
+    position: relative;
 }
 
-.jumbotron {
-    margin: 8px;
-    font-size: 25px;
-    color: whitesmoke;
-    background-image: url("https://locastic.com/wp-content/uploads/2020/04/shahadat-rahman-BfrQnKBulYQ-unsplash-1200x875.jpg") ;
-    padding: 20px;
-}
 
 .lead {
     font-size: 30px;
@@ -24,8 +18,49 @@ body {
             
 }
 
+/*portfolio file */
+
 .portfolio {
     color: #f8f8;
     margin: 20px;
     
 }
+
+
+/*portfolio file */
+/* ------------------------*/
+
+#carouselExampleFade {
+    margin: 5%;
+}
+
+.d-block {
+    max-width: 50%;
+    height: auto;
+}
+
+img {
+    padding: 3px;
+}
+
+.card {
+    margin:25px;
+    margin-top: 50px;
+    left: 10%;
+    
+ }
+
+ #portfolio {
+     margin-top: 35px;
+     width: 66.6%;
+ }
+
+ .carousel-item {
+    margin-left: 25%;
+ }
+
+ .carousel-control-prev,
+ .carousel-control-next {
+    background-color: midnightblue;
+    
+ }
