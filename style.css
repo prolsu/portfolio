@@ -1,66 +1,38 @@
-body,
-html {
-    background-color: whitesmoke;
+html,
+body {
+    background-color: black;
+    opacity: .95;
     display: block;
-    font-family: 'DM Serif Display', serif;
     position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+    color: rgb(67, 67, 230);
+}
+
+.myLinks a {
+    margin: 20px 20px 0 0;
+    font-size: 125%;
+}
+
+.leftHeading {
+    font-size: 300%;
 }
 
 
-.lead {
-    font-size: 30px;
-}
+@media only screen and (width: 1920px){
 
-.contact {
-    color: #f8f8;
-    margin: 20px;
-    max-width: 1000px;
-            
-}
+    .hero-body{
+        margin-left: 15%;
+    }
+    .myImage img {
+        max-width: 50%;
+        height: auto;
+        float: right;
+        
+    }
 
-/*portfolio file */
-
-.portfolio {
-    color: #f8f8;
-    margin: 20px;
-    
 }
 
 
-/*portfolio file */
-/* ------------------------*/
-
-#carouselExampleFade {
-    margin: 5%;
-}
-
-.d-block {
-    max-width: 50%;
-    height: auto;
-}
-
-img {
-    padding: 3px;
-}
-
-.card {
-    margin:25px;
-    margin-top: 50px;
-    left: 10%;
-    
- }
-
- #portfolio {
-     margin-top: 35px;
-     width: 66.6%;
- }
-
- .carousel-item {
-    margin-left: 25%;
- }
-
- .carousel-control-prev,
- .carousel-control-next {
-    background-color: midnightblue;
-    
- }
