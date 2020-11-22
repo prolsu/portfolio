@@ -16,10 +16,14 @@ span {
     font-size: 125%;
 }
 
+.icons img{
+    max-width: 32px;
+    max-height: 32px;
+}
+
 .leftHeading {
     font-size: 300%;
 }
-
 
 @media only screen and (width: 1920px){
 
