@@ -72,4 +72,8 @@ span {
     .desktop{
         display: none;
     }
+    header {
+        margin-top: 35px;
+        margin-left:35px;
+    }
 }
