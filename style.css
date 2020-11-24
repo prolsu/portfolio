@@ -1,7 +1,7 @@
 html,
 body {
     background-color: black;
-    opacity: .92;
+    opacity: .90;
     display: block;
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -33,7 +33,7 @@ span {
 }
 
 .myself {
-    background: linear-gradient(to left, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+    background: linear-gradient(to left, rgba(0,0,0,0) 0%,rgba(0,0,0,.98) 90%);
 }
 
 .myself img {
@@ -45,11 +45,14 @@ span {
     font-size: 300%;
 }
 
-@media only screen and (width: 1920px){
+.aboutMe{
+    color: whitesmoke;
+}
 
-    
+@media only screen and (min-width: 1550px){
+
     header {
-        font-size: 125%;
+        font-size: 150%;
         margin-left: 15%;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -59,7 +62,14 @@ span {
         height: auto;
         float: right;
     }
+    .mobile{
+        display: none;
+    }
 
 }
 
-
+@media only screen and (max-width: 1449px){
+    .desktop{
+        display: none;
+    }
+}

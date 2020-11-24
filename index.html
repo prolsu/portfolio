@@ -10,26 +10,53 @@
 </head>
 <body>
 
-<section class="hero">  
-  <header class="column is-full" style="float: left;">
-    <div  class="title leftHeading">
-      <h1 style="color: whitesmoke;"><span>&lt;hello&gt;</span>world<br>I'm<span>&lt;/Pedro!&gt;</span></h1>
-    </div>
-    <div class="myLinks">
-      <a href="#" class="active intLink">About Me</a>
-      <a href="./portfolio.html" class="intLink">Portfolio</a>
-      <a href="./contact.html" class="intLink">Contact</a>
-    </div>
-  </header>
-</section>
-    
+<div class="mobile">
+  <section class="hero">  
+    <header class="column is-full" style="float: left;">
+      <div  class="title leftHeading">
+        <h1 style="color: whitesmoke;"><span>&lt;hello&gt;</span>world<br>I'm<span>&lt;/Pedro!&gt;</span></h1>
+      </div>
+      <div class="myLinks">
+        <a href="#" class="active intLink">About Me</a>
+        <a href="./portfolio.html" class="intLink">Portfolio</a>
+        <a href="./contact.html" class="intLink">Contact</a>
+      </div>
+    </header>
+  </section>
   <div class="myself">
     <div class="column is-full">
       <img src="./pictures/IMG_7937.jpg" alt="myself">
     </div>
   </div>
+</div>
 
-  
+<div class="desktop">
+  <div class="myself" style="position: relative;">
+    <div class="column is-full">
+      <img src="./pictures/IMG_7937.jpg" alt="myself">
+    </div>
+    <div style="position: absolute; top: 20%;left: 20%;">
+      <header class="column is-full" style="float: left;">
+        <div  class="title leftHeading">
+          <h1 style="color: whitesmoke;"><span>&lt;hello&gt;</span>world!<br>I'm<span>&lt;/Pedro&gt;</span></h1>
+        </div>
+        <div class="myLinks">
+          <a href="#bio" class="active intLink">About Me</a>
+          <a href="./portfolio.html" class="intLink">Portfolio</a>
+          <a href="./contact.html" class="intLink">Contact</a>
+        </div>
+      </header>
+    </div>
+  </div>
+</div>  
+
+  <div class="column" id="bio">
+    <article class="tile is-child box">
+      <h1 class="subtitle" style="text-align: center;">
+        My Name is Pedro Alburqueque. Full stack web developer continuously learning new technologies and eager to get my hands on the next big thing.
+      </h1>
+    </article>
+  </div>
 
   <div class="container">
     <div class="column" style="text-align: center;">
@@ -42,6 +69,5 @@
 <script src="./script.js">
 
 </script>
-
 </body>
 </html>
