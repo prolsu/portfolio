@@ -49,9 +49,48 @@ span {
     color: whitesmoke;
 }
 
+#desktopHeader {
+    top: 0;
+    transition: top 2.5s ease-out;
+}
+
+#desktopHeader.move {
+    top: -150px;
+}
+
+#brief {
+    line-height: 25px;
+    position: absolute;
+    top: 75%;
+    left: 100px;
+    opacity: 0.0;
+    
+    transition-property: opacity;
+    transition-delay: 1s;
+    transition:  3s;
+}
+
+#brief.showMe {
+    opacity: 0.9;
+}
+
+/* #bio.showMe {
+    position: absolute;
+    top: 115%;
+    left: 100px;
+    display: block;
+    transition: top 5s ease-out;
+} */
+
+.desktop .myself #linkHolder #desktopHeader .myLinks{
+    position: absolute;
+    left: 10%;
+}
+
 @media only screen and (min-width: 1550px){
 
     header {
+        position: relative;
         font-size: 150%;
         margin-left: 15%;
         margin-top: 10px;
