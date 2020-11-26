@@ -33,7 +33,7 @@ span {
 }
 
 .myself {
-    background: linear-gradient(to left, rgba(24, 21, 148, 0) 0%,rgba(0,0,0,.98) 90%);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%,rgba(0,0,0,.98) 90%);
 }
 
 .myself img {
