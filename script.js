@@ -1,10 +1,10 @@
 $(document).ready(function(){
-    
-    $(".active").on("click",function(){
+    $(document).on("click", ".active", desktopDisplayBio)
 
+    function desktopDisplayBio() {
         $("#brief").addClass("showMe");
         $("#desktopHeader").addClass("move");
-    })
+    }
 
     $("#hwHolder1").hover(
         function(){
